@@ -9,7 +9,7 @@ read -s mysql_root_password
 
 dnf module disable nodejs -y &>>LOGFILE
 dnf module enable nodejs:20 -y &>>$LOGFILE
-dnf install nodsfdsejs -y &>>$LOGFILE
+dnf install nodejs -y &>>$LOGFILE
 
 #Below code will be useful for idempotent nature
 
