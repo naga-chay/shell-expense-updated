@@ -7,7 +7,7 @@ check_root
 echo "Please enter DB password:"
 read -s mysql_root_password
 
-dnf module disable nodejs -y &>>LOGFILE
+dnf module disable nodfdgdejs -y &>>LOGFILE
 dnf module enable nodejs:20 -y &>>$LOGFILE
 dnf install nodejs -y &>>$LOGFILE
 
